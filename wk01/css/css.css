@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #060002;
+  color: #fff;
+  font: 16px 'Open Sans', Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after { box-sizing: inherit; }
+
+img {
+  max-width: 100%;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+a {
+  color: #f4b507;
+  font-weight: bold;
+  letter-spacing: 0.0625rem;
+  text-decoration: none;
+}
+
+.pageWrap {
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 100%;
+  position: relative;
+}
+
+
+/* nav controls */
+#mainNav {
+  margin: 0 auto;
+  padding-bottom: 0.75rem;
+  position: relative;
+  width: 90%;
+  max-width: 64rem;
+  z-index: 10;
+}
+#mainNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+#mainNav li {
+  padding: 0.75rem 0;
+  flex: 1;
+  width: 10.5rem;
+  text-align: center;
+}
+#mainNav li a { display: block; }
+#mainNav li a:hover { color: #f3edbe; }
+
+
+/* homePage controls */
+#homePage {
+  height: 100vh;
+  overflow-y: hidden;
+}
+#homeHeader {
+  position: relative;
+  height: 85vh;
+  text-align: center;
+}
+.heroImg {
+  margin: auto;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  z-index: 5;
+  opacity: 0.85;
+  object-fit: cover;
+}
+#headerH1 {
+  padding: 0.25rem;
+  position: absolute;
+  top: 72.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  z-index: 10;
+}
+#headerH1 h1 {
+  font: 4rem/1 'Bungee', cursive;
+  color: #fff;
+  letter-spacing: 0.25rem;
+  text-shadow: 0 0 1px #060002;
+}
+
+
+/* about page controls */
+#aboutHeader {
+  position: relative;
+  height: 55vh;
+  background: url("../img/lego-batman-beginning.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.sectionWrap {
+  margin: 1rem auto;
+  max-width: 45rem;
+}
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+p {
+  margin-bottom: 0.5rem;
+  line-height: 1.625;
+}
+.sectionWrap ul { margin-left: 2.5rem; }
+.sectionWrap li { margin-bottom: 0.25rem; }
+
+footer {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #898989;
+}
+
+/* contact page controls */
+div#mainContact {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background: #060002 url("../img/gothamSkyline.png") no-repeat fixed bottom;
+  background-size: auto 100%;
+}
+.container {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+#buttonImg {
+  margin: 0 auto;
+  display: block;
+  max-width: 80%;
+}
+#signal {
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  z-index: 1000;
+  -webkit-transition: all 360ms ease-out;
+  -moz-transition: all 360ms ease-out;
+  transition: all 360ms ease-out;
+}
+.hide { opacity: 0; }
+.show { opacity: 1; }
+h1{
+  margin-top: 0.25rem;
+  font: 2rem/1.125 'Bungee', cursive;
+  color: #fff;
+  letter-spacing: 0.125rem;
+  text-shadow: 0 0 1px #060002;
+}
