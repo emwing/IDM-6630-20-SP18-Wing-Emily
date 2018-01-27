@@ -45,7 +45,7 @@
           "year"=>1999,
           "rating"=>92,
           "genre"=>"Action & Adventure",
-          "poster"=>"princessMononokePoster.jpg"
+          "poster"=>"img/princessMononokePoster.jpg"
         );
 
         $movieD = array(
@@ -54,7 +54,7 @@
           "year"=>2009,
           "rating"=>77,
           "genre"=>"Action & Adventure",
-          "poster"=>"summerWarsPoster.jpg"
+          "poster"=>"img/summerWarsPoster.jpg"
         );
 
         $movieE = array(
@@ -63,7 +63,7 @@
           "year"=>2003,
           "rating"=>90,
           "genre"=>"Animation",
-          "poster"=>"tokyoGodfathersPoster.jpg"
+          "poster"=>"img/tokyoGodfathersPoster.jpg"
         );
 
         // define master movie array
@@ -72,6 +72,27 @@
         // run array_push function to add movie arrays to list
         array_push($movieList, $movieA, $movieB, $movieC, $movieD, $movieE);
 
+        // test master movie array
+        // print_r($movieList);
+
+        foreach($movieList[0] as $data) {
+          echo $data;
+        }
+
+
+/*
+        // define function to create individual movie list
+        function makeMovieList() {
+          foreach($movieList as $currentMovie) {
+            makeOneList($currentMovie);
+          }
+        }
+
+        // define function to run makeMovieList for each movie
+        function makeOneList($moviesToList) {
+          echo $moviesToList["<p></p>"]
+        }
+*/
         ?>
 
       </div> <!-- ends #movieContainer -->
