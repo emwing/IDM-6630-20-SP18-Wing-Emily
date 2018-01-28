@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Average|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
 
   </head>
   <body>
@@ -95,13 +97,13 @@
         // function to make each movie's image and info list (modified from teacher)
         function makeOneMovieList($movieData) {
           echo "<div id='".$movieData["phpName"]."' class='movieItem'>";
-            echo "<img src='".$movieData["poster"]."' title='".$movieData[title]." Poster'> class='poster'"; // get image w/title
+            echo "<img src='".$movieData["poster"]."' title='".$movieData[title]." Poster' class='poster'>"; // get image w/title
             echo "<ul>"; // make a list for each info item
               // echo "<li>".$movieData["phpName"]."</li>";
-              echo "<li><a href=".$movieData["imdbURL"]. "target='_blank'>".$movieData[title]."</a></li>"; // make title into url to imdb page
-              echo "<li>Year Released: ".$movieData["year"]."</li>";
-              echo "<li>Rotten Tomatoes Score: ".$movieData["rating"]."</li>";
-              echo "<li>Movie Genre: ".$movieData["genre"]."</li>";
+              echo "<li><span class='listTitle'>Title:  </span><a href=".$movieData["imdbURL"]. "target='_blank'>".$movieData[title]."</a></li>"; // make title into url to imdb page
+              echo "<li><span class='listTitle'>Year Released:  </span>".$movieData["year"]."</li>";
+              echo "<li><span class='listTitle'>Rotten Tomatoes:  </span>".$movieData["rating"]."%</li>";
+              echo "<li><span class='listTitle'>Movie Genre:  </span>".$movieData["genre"]."</li>";
             echo "</ul><br />";
           echo "</div> <!-- ends #".$movieData["phpName"]."-->";
         }
@@ -129,6 +131,10 @@
         ?>
 
       </div> <!-- ends #movieContainer -->
+
+      <footer>
+        <p>&copy;2018 Emily Wing</p>
+      </footer>
 
     </div> <!-- ends .pageWrap -->
   </body>

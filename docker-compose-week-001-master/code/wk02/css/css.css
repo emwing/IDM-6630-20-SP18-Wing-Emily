@@ -1,0 +1,97 @@
+/* general stuff */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after { box-sizing: inherit; }
+
+svg,
+img {
+  max-width: 100%;
+  image-rendering: -webkit-optimize-contrast; /* fix chrome's image sharpness per: https://medium.freecodecamp.org/-898b38a6c0e1 */
+}
+
+html,
+body,
+.pageWrap { background: #1c2a37 url("../img/sayagata-200px.jpg") repeat fixed; }
+
+header,
+#movieContainer,
+footer { background-color: #fffffe; }
+
+.pageWrap {
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  max-width: 75rem;
+}
+header {
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 12vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2c353d;
+}
+h1,
+h2 {
+  margin: 0;
+  font-family: "Average", Garamond, serif;
+  letter-spacing: 0.125rem;
+}
+
+/* links */
+a {
+  font-weight: bold;
+  color: #d4b258;
+  text-decoration: none;
+}
+a:hover { color: #ececec; }
+
+/* movie stuff */
+#movieContainer {
+  min-height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: stretch;
+}
+.movieItem {
+  display: block;
+  padding: 1rem 1rem 1rem;
+  flex: 1 200px;
+}
+.poster {
+  border: 1px solid #2c353d;
+  box-shadow: 0 0.75rem 0.75rem 0.25rem #ececec;
+}
+
+/* nit-picky things */
+ul {
+  margin-top: 2rem;
+  list-style-type: none;
+  text-align: left;
+}
+li { margin-bottom: 1rem; }
+.listTitle {
+  font-weight: bold;
+  font-family: "Average", Garamond, serif;
+}
+
+footer {
+  text-align: center;
+  min-height: 3vh;
+}
