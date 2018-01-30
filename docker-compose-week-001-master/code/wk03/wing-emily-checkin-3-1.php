@@ -1,6 +1,6 @@
 <?php
 
-  echo "<h1>Check-In 3.1</h1> <br />";
+  // echo "<h1>Check-In 3.1</h1> <br />";
   echo "<ul>";
 
   $queryArray = $_GET;
