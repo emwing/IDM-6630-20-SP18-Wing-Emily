@@ -4,7 +4,7 @@
     <img src="img/haibane_renmei_dvd.jpg" alt="Haibane Renmei">
   </div>
 
-  <div id="plotText" class="flexItem">
+  <div id="episodeText" class="flexItem">
     <h3>Haibane Renmei Episodes</h3>
     <ol>
       <li>Cocoon / Dream of Falling From the Sky / Old Home</li>
