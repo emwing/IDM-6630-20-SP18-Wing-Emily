@@ -1,6 +1,6 @@
 <div id="articleContainer" class="flexContainer">
 
-  <div id="dvdImg" class="flexItem">
+  <div id="dvdImg" class="flexImg">
     <img src="img/yuri_on_ice_dvd.jpg" alt="Yuri on Ice">
   </div>
 

@@ -1,6 +1,6 @@
 <div id="articleContainer" class="flexContainer">
 
-  <div id="dvdImg" class="flexItem">
+  <div id="dvdImg" class="flexImg">
     <img src="img/madoka_magica_dvd.jpg" alt="Madoka Magica">
   </div>
 

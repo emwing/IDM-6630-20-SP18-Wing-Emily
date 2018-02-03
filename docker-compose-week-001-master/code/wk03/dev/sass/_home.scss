@@ -1,0 +1,23 @@
+#homeContainer {
+  padding: 2.5% 0;
+  margin: 0 auto;
+  max-width: 75rem;
+  flex-wrap: nowrap;
+  // align-items: stretch;
+}
+.flexItem3 {
+  padding: 0.5rem 1rem;
+  flex: 1 12.5rem;
+}
+.sectionImg {
+  border: 0.125rem solid $pink;
+  border-radius: 0.25rem;
+  opacity: 0.6;
+}
+.sectionImg:hover {
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+  opacity: 1;
+}

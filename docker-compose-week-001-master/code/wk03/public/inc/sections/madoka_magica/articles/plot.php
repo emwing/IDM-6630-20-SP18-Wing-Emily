@@ -1,6 +1,6 @@
 <div id="articleContainer" class="flexContainer">
 
-  <div id="plotImg" class="flexItem">
+  <div id="plotImg" class="flexImg">
     <img src="img/madoka_magica_plot.jpg" alt="Madoka Magica">
   </div>
 

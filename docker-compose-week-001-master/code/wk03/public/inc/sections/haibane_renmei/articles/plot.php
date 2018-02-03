@@ -1,6 +1,6 @@
 <div id="articleContainer" class="flexContainer">
 
-  <div id="plotImg" class="flexItem">
+  <div id="plotImg" class="flexImg">
     <img src="img/haibane_renmei_plot.jpg" alt="Haibane Renmei">
   </div>
 

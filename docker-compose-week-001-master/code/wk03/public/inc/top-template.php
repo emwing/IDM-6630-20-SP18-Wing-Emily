@@ -1,20 +1,20 @@
-<div id="homeContainer" class="flexContainer">
+<div id="homeContainer" class="homeContainer">
 
-  <div id="yoi-sectionLink" class="flexItem">
-    <a href="/public/?sections/yuri_on_ice/section-template.php" alt="Yuri on Ice" title="Yuri on Ice">
-      <img src="img/yuri_on_ice_vBanner.jpg" alt="Yuri on Ice">
+  <div id="yuri_on_ice" class="flexItem3">
+    <a href="/wk03/public/?section=yuri_on_ice" alt="Yuri on Ice" title="Yuri on Ice">
+      <img src="img/yuri_on_ice_vBanner.jpg" alt="Yuri on Ice" class="sectionImg">
     </a>
   </div>
 
-  <div id="mm-sectionLink" class="flexItem">
-    <a href="/public/?sections/madoka_magica/section-template.php" alt="Madoka Magica" title="Madoka Magica">
-      <img src="img/madoka_magica_vBanner.jpg" alt="Madoka Magica">
+  <div id="madoka_magica" class="flexItem3">
+    <a href="/wk03/public/?section=madoka_magica" alt="Madoka Magica" title="Puella Magi Madoka Magica">
+      <img src="img/madoka_magica_vBanner.jpg" alt="Madoka Magica" class="sectionImg">
     </a>
   </div>
 
-  <div id="yoi-sectionLink" class="flexItem">
-    <a href="/public/?sections/haibane_renmei/section-template.php" alt="Haibane Renmei" title="Haibane Renmei">
-      <img src="img/haibane_renmei_vBanner.jpg" alt="Haibane Renmei">
+  <div id="haibane_renmei" class="flexItem3">
+    <a href="/wk03/public/?section=haibane_renmei" alt="Haibane Renmei" title="Haibane Renmei">
+      <img src="img/haibane_renmei_vBanner.jpg" alt="Haibane Renmei" class="sectionImg">
     </a>
   </div>
 

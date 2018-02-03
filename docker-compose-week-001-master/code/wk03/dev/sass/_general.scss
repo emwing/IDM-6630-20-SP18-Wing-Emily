@@ -1,0 +1,101 @@
+html,
+body { background: $beige url("../img/sakura.png") repeat fixed; }
+
+.pageWrap {
+  margin: 0 auto;
+  position: relative;
+  max-width: 90%;
+  background-color: $greenlt;
+}
+
+h1,
+h3,
+h4 {
+  margin: 0;
+  font-family: $header-font;
+  letter-spacing: 0.125rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+  @include phablet { font-size: 1.5rem; }
+  @include tablet { font-size: 1.75rem; }
+  @include desktop { font-size: 2rem; }
+}
+h2 {
+  font-size: 1.125rem;
+  @include phablet { font-size: 1.25rem; }
+  @include tablet { font-size: 1.5rem; }
+  @include desktop { font-size: 1.75rem; }
+}
+h3 {
+  font-size: 1.0625rem;
+  @include phablet { font-size: 1.125rem; }
+  @include tablet { font-size: 1.25rem; }
+  @include desktop { font-size: 1.5rem; }
+}
+
+h2,
+ol,
+ul,
+p {
+  font-family: $copy-font;
+  letter-spacing: 0.0625rem;
+}
+
+ol,
+ul {
+  margin: 0 1rem;
+  font-size: 0.875rem;
+  @include desktop { font-size: 1rem; }
+}
+p { margin-bottom: 0.5rem; }
+
+a {
+  color: $tealmd;
+  text-decoration: none;
+}
+a:hover { color: $teallt; }
+
+.homeContainer,
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.homeContainer {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.flexContainer {
+  padding-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+#articleContainer {
+  padding: 0 2.5% 1%;
+}
+.bannerImg {
+  margin: 0 auto;
+  padding: 1rem 0 2.5% 0;
+  max-width: 47rem;
+  flex: 1 100%;
+  text-align: right;
+}
+.flexImg {
+  flex: 1;
+  align-self: flex-start;
+  text-align: center;
+}
+.flexItem {
+  padding: 0 2rem;
+  flex: 1.5;
+}
+#episodeText ol li { margin-left: 1rem; }
+
+footer {
+  padding: 1rem;
+  background-color: $greendk;
+  color: $greenlt;
+  font-size: 0.875rem;
+  text-align: center;
+}

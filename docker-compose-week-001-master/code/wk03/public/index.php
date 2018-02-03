@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Average|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
 
   </head>
   <body>
@@ -26,13 +27,14 @@
           if (file_exists("inc/sections/" . $section . "/section-template.php")) { // CHECK IF SET SECTION EXISTS. IF NOT, WARN USER
             if (isset($_GET['article'])) { // CHECK IF ARTICLE IS SET. IF NOT, INCLUDE SECTION TEMPLATE
               if (file_exists("inc/sections/" . $section . "\/articles\/" . $article . ".php")) { //CHECK IF SET ARTICLE EXISTS. IF NOT, WARN USER
+                include 'inc/section-nav.php';
                 include "inc/sections/" . $section . "\/articles\/" . $article . ".php";
               } else {
                 echo "<p>Sorry, the article you're looking for does not exist.</p>";
               }
             } else {
-              include 'inc/sections/' . $section . '/section-template.php';
               include 'inc/section-nav.php';
+              include 'inc/sections/' . $section . '/section-template.php';
             }
           } else {
             echo "<p>sorry, the section you're looking for does not exist.</p>";
