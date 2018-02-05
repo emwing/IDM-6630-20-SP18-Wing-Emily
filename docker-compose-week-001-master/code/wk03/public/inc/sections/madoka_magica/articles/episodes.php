@@ -5,7 +5,7 @@
   </div>
 
   <div id="episodeText" class="flexItem">
-    <h3>Madoka Magica Episodes</h3>
+    <h3>Puella Magi Madoka Magica Episodes</h3>
     <ol>
       <li>As if I Met Her in My Dream</li>
       <li>That's Really Nice of You</li>

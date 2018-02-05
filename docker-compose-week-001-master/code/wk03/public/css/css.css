@@ -276,6 +276,11 @@ h3 {
     h3 {
       font-size: 1.5rem; } }
 
+h3,
+h4,
+p {
+  color: #4A5759; }
+
 h2,
 ol,
 ul,
@@ -341,9 +346,11 @@ a:hover {
 footer {
   padding: 1rem;
   background-color: #4A5759;
-  color: #DEDBD2;
   font-size: 0.875rem;
   text-align: center; }
+
+footer p {
+  color: #DEDBD2; }
 
 #mainNav,
 #mainNav ul {
@@ -383,7 +390,8 @@ footer {
   height: 100%;
   display: block;
   font-size: 0.875rem;
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: uppercase; }
 
 #mainNav li:hover {
   background-color: #DEDBD2; }

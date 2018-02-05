@@ -37,7 +37,7 @@
               include 'inc/sections/' . $section . '/section-template.php';
             }
           } else {
-            echo "<p>sorry, the section you're looking for does not exist.</p>";
+            echo "<p>Sorry, the section you're looking for does not exist.</p>";
           }
         } else {
           include "inc/top-template.php";

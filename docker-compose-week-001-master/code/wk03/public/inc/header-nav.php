@@ -1,7 +1,7 @@
 <header>
   <?php echo
-  "<h1>Intro to Anime: The Essential Short TV Series</h1>";
-  echo "<h2>Anime stories told in 13 episodes or less.</h2>"; ?>
+  "<h1>Intro to Anime: Three Essential Short TV Series</h1>";
+  echo "<h2>- anime stories told in 13 episodes or less -</h2>"; ?>
 </header>
 
 <nav id="mainNav">
